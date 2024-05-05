@@ -19,10 +19,8 @@ function init() {
       party = false;
     }
     result[0].src = "assets/images/" + event.target.value + ".svg";
-    // result[0].mp3 = "assets/audio/" + event.target.value + ".mp3";
+    // result[0].mp3 = "assets/audio/" + event.target.value + ".mp3"; used to work
     selectAudio[0].src = "assets/audio/" + event.target.value + ".mp3";
-
-
   });
 
   const selectAudioImg=document.getElementById("volume-controls");
